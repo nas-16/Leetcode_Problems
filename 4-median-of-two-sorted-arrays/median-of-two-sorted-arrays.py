@@ -24,4 +24,4 @@ class Solution(object):
                 high = cut1 - 1
             else :
                 low = cut1 + 1
-            
+        
