@@ -23,14 +23,11 @@ class Solution(object):
             i += 1
 
         num *= sign
-
-        # 32-bit range
         if num < -2**31:
             return -2**31
 
         if num > 2**31 - 1:
             return 2**31 - 1
-
         return num
             
 
