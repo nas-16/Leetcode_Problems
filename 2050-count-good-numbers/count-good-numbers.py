@@ -4,8 +4,8 @@ class Solution(object):
         mod = (10**9 + 7)
         while exp : 
             if exp % 2 != 0 :
-                ans *= base % mod
-            base *= base % mod
+                ans *= base % (mod)
+            base *= base % (mod)
             exp = exp//2
         return ans
 
